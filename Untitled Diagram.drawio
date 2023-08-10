@@ -1,9 +1,134 @@
-<mxfile host="app.diagrams.net" modified="2023-08-10T08:35:30.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="21.6.7" etag="EwDTr7mO7vGNYQz0tViC" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T22:00:04.928Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="-ydmcs9aJy6WF9xKHXo-" version="21.6.7" type="github">
   <diagram name="Page-1" id="2i3m8kltYyu7kxJy7IRQ">
-    <mxGraphModel>
+    <mxGraphModel dx="986" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GTQ86Q2XX04762isqP1n-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="GTQ86Q2XX04762isqP1n-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="165" as="targetPoint" />
+            <mxPoint x="140" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="1" target="GTQ86Q2XX04762isqP1n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="160" as="targetPoint" />
+            <mxPoint x="140" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GTQ86Q2XX04762isqP1n-5" target="GTQ86Q2XX04762isqP1n-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-5" value="Borrower Interaction" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="GTQ86Q2XX04762isqP1n-5" parent="1" target="GTQ86Q2XX04762isqP1n-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#ff2600;" edge="1" parent="1" source="GTQ86Q2XX04762isqP1n-12" target="GTQ86Q2XX04762isqP1n-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-12" value="Loan Application&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-17" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;System collects borrower&#39;s information&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="260" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-20" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;System generates a loan application form&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="250" y="260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-42" value="Condition" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="310" y="450" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-43" value="Rejected" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="GTQ86Q2XX04762isqP1n-42" parent="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="500" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-44" value="Accepted" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="GTQ86Q2XX04762isqP1n-42" parent="1">
+          <mxGeometry x="-0.3438" relative="1" as="geometry">
+            <mxPoint x="350" y="520" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-56" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" vertex="1" parent="1">
+          <mxGeometry x="500" y="455" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-59" value="application aborted" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="455" y="425" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#ff2600;" edge="1" parent="1" source="GTQ86Q2XX04762isqP1n-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ff2600;" edge="1" parent="1" source="GTQ86Q2XX04762isqP1n-62" target="GTQ86Q2XX04762isqP1n-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-62" value="Loan Processing" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-64" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Credit checks and risk assessments are performed&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="230" y="650" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-65" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Required documents are reviewed&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#ff2600;" edge="1" parent="1" source="GTQ86Q2XX04762isqP1n-75" target="GTQ86Q2XX04762isqP1n-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="819.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-75" value="Loan Approval" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-76" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="GTQ86Q2XX04762isqP1n-75" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="860" />
+              <mxPoint x="350" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-77" value="Parties review the application&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="270" y="910" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff2600;" edge="1" parent="1" source="GTQ86Q2XX04762isqP1n-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-82" value="Loan Disbursement" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-93" value="Loan amount transferred to borrower&#39;s account" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1010" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#ff2600;" edge="1" parent="1" source="GTQ86Q2XX04762isqP1n-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-94" value="Repayment" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-98" value="Borrower starts making regular loan payments" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="600" y="860" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-99" value="Payments are tracked and recorded" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="600" y="890" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GTQ86Q2XX04762isqP1n-100" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="705" y="710" width="30" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
